@@ -689,6 +689,9 @@ p.smallpara{
     .table-width-100{
         width:80px;
     }
+    .navigation li.nav-item::after {
+        content: none;
+    }
 }
 
 
