@@ -692,6 +692,22 @@ p.smallpara{
     .navigation li.nav-item::after {
         content: none;
     }
+    .header .ordern-2{
+        order:3
+    }
+    .header .ordern-3{
+        order:2
+    }
+    ul.notification-box{
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .search-box {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        top: -10px;
+    }
 }
 
 
@@ -737,6 +753,22 @@ p.smallpara{
     }
     .table-width-100{
         width:80px;
+    }
+    .header .ordern-2{
+        order:3
+    }
+    .header .ordern-3{
+        order:2
+    }
+    ul.notification-box{
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .search-box {
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        top: -10px;
     }
  }
 
