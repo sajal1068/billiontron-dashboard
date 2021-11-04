@@ -47,7 +47,9 @@ a:hover{
     
 }
 .btn-blue{
-
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right:25px;
 }
 .search-box input{
     width:100%;
@@ -95,7 +97,7 @@ a:hover{
     position: relative;
    
   }
-.nav-item::after{
+li.nav-item::after{
     position: absolute;
     content: "";
     width: 0.35px;
@@ -105,6 +107,12 @@ a:hover{
     color: rgb(255, 255, 255);
     background: rgba(241, 241, 241,0.5);    
 }
+
+li:last-child .nav-item::after{    
+    content: none;        
+}
+
+
 
 .nav-link img{
     margin-right: 5px;
