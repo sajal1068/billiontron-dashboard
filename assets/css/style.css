@@ -754,6 +754,9 @@ p.smallpara{
     .table-width-100{
         width:80px;
     }
+    .navigation li.nav-item::after {
+        content: none;
+    }
     .header .ordern-2{
         order:3
     }
