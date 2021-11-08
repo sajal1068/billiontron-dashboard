@@ -757,7 +757,23 @@ p.smallpara{
     padding: 7px 16px;
     font-size: 13px;
 }
+.winnertext{
+    font-size: 0.9rem;
+    line-height:1.6;
+    font-weight: 300;
+}
+.winner-flex{
+    display:flex;
+    align-items: center;
+    margin-bottom: 15px;
 
+}
+.img-section{
+    width:200px;
+}
+.text-section{
+    width:calc(100% - 200px);
+}
 /* bootstrp form */
 
 
@@ -827,6 +843,15 @@ p.smallpara{
     }
     .dropdown-menu {display: none;}
     .dropdown-menu.show {display: block;}
+    .winner-flex{
+        display:flex;
+        flex-direction:column;
+        margin-bottom: 15px;    
+    }
+    .text-section, .img-section{
+        width:100%;
+    }
+    
 }
 
 
@@ -897,6 +922,17 @@ p.smallpara{
     }
     .dropdown-menu {display: none;}
     .dropdown-menu.show {display: block;}
+    .winner-flex{
+        display:flex;
+        flex-direction:column;
+        margin-bottom: 15px;    
+    }
+    .text-section, .img-section{
+        width:100%;
+    }
+    .text-section{
+        padding-top: 15px;;
+    }
     
  }
 
