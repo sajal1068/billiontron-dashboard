@@ -13,3 +13,8 @@ function CopyToClipboard(containerid) {
       alert("Text has been copied, now paste in the text-area")
     }
   }
+
+
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
